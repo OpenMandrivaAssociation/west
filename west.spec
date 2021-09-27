@@ -1,6 +1,6 @@
 Summary:	Tools for building and working with the Zephyr RTOS
 Name:		west
-Version:	0.11.0
+Version:	0.11.1
 Release:	1
 Group:		Development
 License:	Apache 2.0
