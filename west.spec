@@ -7,6 +7,7 @@ License:	Apache 2.0
 Url:		https://pypi.org/project/west/
 Source0:	https://files.pythonhosted.org/packages/source/w/west/west-%{version}.tar.gz
 BuildRequires:	python3dist(setuptools)
+BuildRequires:	python3dist(pykwalify)
 BuildArch:	noarch
 
 %description
