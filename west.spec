@@ -1,12 +1,13 @@
 Summary:	Tools for building and working with the Zephyr RTOS
 Name:		west
-Version:	0.11.1
+Version:	0.13.1
 Release:	1
 Group:		Development
 License:	Apache 2.0
 Url:		https://pypi.org/project/west/
 Source0:	https://files.pythonhosted.org/packages/source/w/west/west-%{version}.tar.gz
 BuildRequires:	python3dist(setuptools)
+BuildRequires:	python3dist(pykwalify)
 BuildArch:	noarch
 
 %description
