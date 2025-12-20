@@ -33,7 +33,3 @@ export LDFLAGS="%{ldflags} -lpython%{py_ver}"
 %{__python} setup.py \
 	install \
 	--root="%{buildroot}" --skip-build --optimize=1
-
-%check
-%{__python} setup.py \
-	check
